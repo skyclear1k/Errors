@@ -17,6 +17,17 @@ $$
 | L | sample length (thickness) | m |
 | $\Delta p$ | differential pressure | N/$m^2$ |
 
+---
+## Errors variables
+| Symbol | Description | Unit (SI) |
+|--------|-------------|-----------|
+| $\frac{\delta h}{h}$ | liquid columsn height | $m$ |
+|  $\frac{\delta T}{T}$  | integration time | s |
+|  $\frac{\delta \mu}{\mu}$  | fluid viscosity | Pa·s |
+|  $\frac{\delta L}{L}$   | sample length (thickness) | m |
+|  $\frac{\delta \Delta p}{\Delta p}$  | differential pressure | N/$m^2$ |
+
+
 ## Example
 
 h = 10 mm <br>
