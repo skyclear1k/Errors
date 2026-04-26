@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Darcy-Weisbach Formula — Fluid Mechanics Reference
 
 ## Formula
