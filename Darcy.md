@@ -1,5 +1,3 @@
-
-
 # Darcy-Weisbach Law
 
 $$
