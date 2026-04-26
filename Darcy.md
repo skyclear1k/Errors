@@ -1,7 +1,7 @@
 # Darcy-Weisbach Law
 
 $$
-h_f = f \cdot \frac{L}{D} \cdot \frac{V^2}{2g}
+k = Q \cdot \frac{\mu \cdot L}{\Delta p \cdot A}
 $$
 
 ---
@@ -10,19 +10,19 @@ $$
 
 | Symbol | Description | Unit (SI) |
 |--------|-------------|-----------|
-| h_f | Head loss due to friction | m |
-| f | Darcy friction factor | dimensionless |
-| L | Pipe length | m |
-| D | Pipe diameter | m |
-| V | Flow velocity | m/s |
-| g | Gravitational acceleration | m/s² |
+| k | permeability | $m^2$ |
+| Q | flowrate | $m^3$/s |
+| $\mu$ | fluid viscosity | Pa·s |
+| L | sample length (thickness) | m |
+| A | Area of the sample | $m^2$ |
+| $\Delta p$ | differential pressure through the thickness | N/$m^2$ |
 
 ---
 
 ## Example Calculation
 
-Given: L = 100 m, D = 0.05 m, V = 2 m/s, f = 0.02
+Given: L = 10 mm,  D = 0.020 m, , Q = 1 lpm
 
 $$
-h_f = 0.02 \cdot \frac{100}{0.05} \cdot \frac{2^2}{2 \times 9.81} \approx 4.08 \, m
+k = Q \cdot \frac{\mu \cdot L}{\Delta p \cdot A}
 $$
