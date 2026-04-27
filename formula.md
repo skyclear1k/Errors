@@ -2,7 +2,7 @@
 # Darcy-Weisbach Law
 
 $$
-k = \frac{h}{T} \cdot \frac{\mu \cdot L}{\Delta p \cdot A}
+k = \frac{h}{T} \cdot \frac{\mu \cdot L}{\Delta p}
 $$
 
 ---
