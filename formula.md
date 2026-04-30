@@ -2,7 +2,7 @@
 # Darcy-Weisbach Law
 
 $$
-k = \frac{h}{T} \cdot \frac{\mu \cdot L}{\Delta p}
+k =(\frac{d}{D})^2\cdot \frac{h}{T} \cdot \frac{\mu \cdot L}{\Delta p}
 $$
 
 ---
@@ -23,7 +23,7 @@ $$
 |--------|-------------|-----------|
 | $\frac{\delta h}{h}$ | liquid columsn height | $m$ |
 |  $\frac{\delta T}{T}$  | integration time | s |
-|  $\frac{\delta \mu}{\mu}$  | fluid viscosity | Pa·s |
+|  $\frac{\delta \mu}{\mu}$  | fluid viscosity | Pa·s |()
 |  $\frac{\delta L}{L}$   | sample length (thickness) | m |
 |  $\frac{\delta \Delta p}{\Delta p}$  | differential pressure | N/$m^2$ |
 
